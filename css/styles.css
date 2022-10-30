@@ -344,6 +344,10 @@ border-radius: 0px 0px 4px 4px;
     padding-bottom: 30px;
 }
 
+.clients-list {
+    display: flex;
+}
+
 /* end of page */
 .footer {
     padding-top: 60px;
