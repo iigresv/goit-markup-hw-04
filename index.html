@@ -26,8 +26,12 @@
 </nav>
     <!--in future you can put mail+tel into div-->
 <ul class="header-nav list contact">
-    <li class="item contact"><a href="mailto:info@devstudio.com" class="link contact">info@devstudio.com</a></li>
-    <li class="item contact"><a href="tel:+380961111111" class="link contact">+38 096 111 11 11</a></li>
+    <li class="item contact"><a href="mailto:info@devstudio.com" class="link contact"><svg class="contact-icon" width="16" height="12">
+      <use href="./images/icons.svg#icon-envelope-hover"></use>
+    </svg>info@devstudio.com</a></li>
+    <li class="item contact"><a href="tel:+380961111111" class="link contact"><svg class="contact-icon" width="10" height="16">
+      <use href="./images/icons.svg#icon-Vector"></use>
+    </svg>+38 096 111 11 11</a></li>
 </ul>
 </div>
     </header>
@@ -50,24 +54,44 @@
             <h2 class="visually-hidden">advantages</h2>
         <ul class="advantages-list list">
             <li class="item">
+                <div class="item-icon">
+                    <svg class="adv-icons" width="70" height="70">
+                      <use href="./images/icons.svg#icon-antenna-1"></use>
+                    </svg>
+                </div>
                 <h3 class="advantages-title title">УВАГА ДО ДЕТАЛЕЙ</h3>
                 <p>
                     Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
                 </p>
             </li>
             <li class="item">
+            <div class="item-icon">
+                <svg class="adv-icons" width="70" height="70">
+                  <use href="./images/icons.svg#icon-clock-1"></use>
+                </svg>
+            </div>
                 <h3 class="advantages-title title">ПУНКТУАЛЬНІСТЬ</h3>
                 <p>
                     Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
                 </p>
             </li>
             <li class="item">
+                <div class="item-icon">
+                    <svg class="adv-icons" width="70" height="70">
+                      <use href="./images/icons.svg#icon-diagram-1"></use>
+                    </svg>
+                </div>
                 <h3 class="advantages-title title">ПЛАНУВАННЯ</h3>
                 <p>
                     Так само консультація з широким активом значною мірою зумовлює.
                 </p>
             </li>
             <li class="item">
+                <div class="item-icon">
+                    <svg class="adv-icons" width="70" height="70">
+                      <use href="./images/icons.svg#icon-astronaut-1"></use>
+                    </svg>
+                </div>
                 <h3 class="advantages-title title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                 <p>
                     Значимість цих проблем настільки очевидна, що реалізація планових завдань.
@@ -105,6 +129,28 @@
                     <div class="people-item-scope">
                     <h3 class="team-title title">Ігор Дем'яненко</h3>
                     <p class="people-item-text" lang="en">Product Designer</p>
+                    <ul class="team-icon list">
+                        <li class="team-icon-social"><a href="#" target="blank" rel="noopener nofollow noreferrer">
+                            <svg class="icon" width="20px" height="20px">
+                              <use href="./images/icons.svg#icon-instagram-2"></use>
+                            </svg>
+                        </a></li>
+                        <li class="team-icon-social"><a href="#" target="blank" rel="noopener nofollow noreferrer">
+                            <svg class="icon" width="20px" height="20px">
+                              <use href="./images/icons.svg#icon-twitter-1"></use>
+                            </svg>
+                        </a></li>
+                        <li class="team-icon-social"><a href="#" target="blank" rel="noopener nofollow noreferrer">
+                            <svg class="icon" width="20px" height="20px">
+                              <use href="./images/icons.svg#icon-facebook-1"></use>
+                            </svg>
+                        </a></li>
+                        <li class="team-icon-social"><a href="#" target="blank" rel="noopener nofollow noreferrer">
+                            <svg class="icon" width="20px" height="20px">
+                              <use href="./images/icons.svg#icon-linkedin-1"></use>
+                            </svg>
+                        </a></li>
+                    </ul>
                     </div>
                 </li>
                 <li class="people-item">
@@ -133,7 +179,7 @@
         </section>
         
 
-            
+        <!-- clients -->
             <section class="clients-client section">
                 <h2 class="pretitle">Постійні клієнти</h2>
                 <div class="container">
