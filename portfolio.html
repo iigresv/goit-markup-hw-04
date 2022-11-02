@@ -24,15 +24,20 @@
                 </a>
                 <ul class="header-nav list">
                     <li class="item"><a href="./index.html" class="link  navi">Студія</a></li>
-                    <li class="item"><a href="./portfolio.html" class="link navi current">Портфоліо</a></li>
+                    <li class="item"><a href="./portfolio.html" class="link current navi">Портфоліо</a></li>
                     <li class="item"><a href="#" class="link navi">Контакти</a></li>
                 </ul>
             </nav>
             <!--in future you can put mail+tel into div-->
             <ul class="header-nav list contact">
-                <li class="item contact"><a href="mailto:info@devstudio.com" class="link contact">info@devstudio.com</a>
-                </li>
-                <li class="item contact"><a href="tel:+380961111111" class="link contact">+38 096 111 11 11</a></li>
+                <li class="item contact"><a href="mailto:info@devstudio.com" class="link contact"><svg class="contact-icon"
+                            width="16" height="12">
+                            <use href="./images/icons.svg#icon-envelope-hover"></use>
+                        </svg>info@devstudio.com</a></li>
+                <li class="item contact"><a href="tel:+380961111111" class="link contact"><svg class="contact-icon"
+                            width="10" height="16">
+                            <use href="./images/icons.svg#icon-Vector"></use>
+                        </svg>+38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
@@ -143,23 +148,57 @@
     <!--end of page-->
     <footer class="footer">
         <div class="container">
-            <a class="logo link logo-footer-bottom" href="./index.html"> Web<span class="logo-footer">Studio</span>
-            </a>
+            <div class="footer-list list">
+                <div class="footer-list-first">
+                    <a class="logo link logo-footer-bottom" href="./index.html"> Web<span class="logo-footer">Studio</span>
+                    </a>
+                    <address class="address-list">
+                        <ul class="address-list list">
+                            <li class="address-item-list">
+                                <a href="https://goo.gl/maps/eHe3GoqxuUHjzjyF7" target="blank"
+                                    rel="noopener nofollow noreferrer" class="address link">м. Київ, пр-т Лесі Українки,
+                                    26</a>
+                            </li>
+                            <li class="address-item-list">
+                                <a href="mailto:info@devstudio.com" class="link-footer link">info@devstudio.com</a>
+                            </li>
+                            <li class="address-item-list">
+                                <a href="tel:+380961111111" class="link-footer link">+38 096 111 11 11</a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
     
-            <address class="address-list">
-                <ul class="address-list list">
-                    <li class="address-item-list">
-                        <a href="https://goo.gl/maps/eHe3GoqxuUHjzjyF7" target="blank" rel="noopener nofollow noreferrer"
-                            class="address link">м. Київ, пр-т Лесі Українки, 26</a>
-                    </li>
-                    <li class="address-item-list">
-                        <a href="mailto:info@devstudio.com" class="link-footer link">info@devstudio.com</a>
-                    </li>
-                    <li class="address-item-list">
-                        <a href="tel:+380961111111" class="link-footer link">+38 096 111 11 11</a>
-                    </li>
-                </ul>
-            </address>
+                <div>
+                    <h3 class="footer-title">Приєднуйтесь</h3>
+                    <ul class="team-icon list">
+                        <li class="team-icon-social-footer"><a href="#" class="team-list-social" target="blank"
+                                rel="noopener nofollow noreferrer">
+                                <svg class="icon-footer" width="20px" height="20px">
+                                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                                </svg>
+                            </a></li>
+                        <li class="team-icon-social-footer"><a href="#" class="team-list-social" target="blank"
+                                rel="noopener nofollow noreferrer">
+                                <svg class="icon-footer" width="20px" height="20px">
+                                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                                </svg>
+                            </a></li>
+                        <li class="team-icon-social-footer"><a href="#" class="team-list-social" target="blank"
+                                rel="noopener nofollow noreferrer">
+                                <svg class="icon-footer" width="20px" height="20px">
+                                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                                </svg>
+                            </a></li>
+                        <li class="team-icon-social-footer"><a href="#" class="team-list-social" target="blank"
+                                rel="noopener nofollow noreferrer">
+                                <svg class="icon-footer" width="20px" height="20px">
+                                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                                </svg>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
